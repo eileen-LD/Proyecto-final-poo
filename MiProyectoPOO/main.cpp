@@ -1,6 +1,6 @@
 #include <SFML/Graphics.hpp>
 using namespace sf;
-
+//hello
 int main(int argc, char *argv[]){
 	RenderWindow w(VideoMode(640,480),"Ejemplo de SFML");
 	Texture t;
