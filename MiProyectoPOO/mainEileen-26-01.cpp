@@ -11,15 +11,15 @@ int main(int argc, char *argv[]){
 	s.setPosition(175, 130);
 	
 	while(w.isOpen()) {
-		Event e;
+		Event e;       //holi pruebo de nuevo
 		while(w.pollEvent(e)) {
 			if(e.type == Event::Closed)
 				w.close();	
 		}
 		
-		w.clear(Color(255,255,255,255));
+		w.clear(Color(255,255,255,255)); //uno mas
 		w.draw(s);
-		w.display();
+		w.display();//y unooo mas
 	}
 	return 0;
 }
